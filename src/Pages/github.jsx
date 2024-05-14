@@ -47,7 +47,7 @@ function Github() {
       textAlign: "center",
      }}
     >
-      <h2 alt="repository-list">Github Repositories </h2> 
+      <h2 className="repository-list">Github Repositories </h2> 
       <Users
         users={portfolio}
         page={page}

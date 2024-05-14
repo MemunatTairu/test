@@ -102,11 +102,9 @@ h2{
   color: rgba(0, 0, 0, 0.907);
 }
 #dark h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(15, 15, 15);
 }
-h2 .repository-list{
-  color: aqua;
-}
+
 article {
   margin: auto;
   padding: 0 20px;
@@ -126,28 +124,23 @@ article {
 #profile-details{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
 .buttons {
   display: flex;
-  margin: 5px;
+  justify-content: center;
+  margin: 5px 15px;
   cursor: pointer;
   background-color: rgb(133, 28, 202);
   color: rgb(255, 255, 255);
   border-radius: 5px;
-  font-style: bolder;
+  font-weight: bolder;
   font-size: 15px;
-  box-shadow: rgb(61, 59, 59);
-  text-align: center;
+ 
 }
 
-a .buttons {
-  border-radius: 5px;
-  text-decoration: none;
-  background-color: rgb(21, 162, 197);
-  color:rgb(7, 7, 7);
-  text-align: center;
-}
 
 .bio {
   font-size: 30px;
@@ -192,6 +185,7 @@ a .buttons {
 }
 
 #paginate {
+  display: flex;
   position: relative;
   margin-top: 50px;
 }

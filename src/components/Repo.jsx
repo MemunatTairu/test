@@ -17,7 +17,7 @@ function Repo(props) {
     }
   }, [dynamicRoute, id, portfolio, scrollView]);
 
-  console.log("rubbish");
+  console.log("this is error");
   return (
     <div
       id="outlet"
